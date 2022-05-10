@@ -1,12 +1,21 @@
 import React from 'react';
-import Menu from "./Menu"
+import Menu from './Menu';
+import Header from './Header';
+import Navbar from './Navbar';
+import { Routes, Route } from 'react-router-dom';
+import OnlineOrder from './OnlineOrder';
+import Application from './Application';
 
 function App() {
+
   return (
-    <div className="app">
+    <div className="app" >
       <header className="App-header">
-       <Menu />
-       <p>Test</p>
+        <Navbar />
+        <Header />
+        <Menu />
+        <Application />
+        <OnlineOrder />
       </header>
     </div>
   );

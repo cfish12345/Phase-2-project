@@ -1,18 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import MenuList from './MenuList';
-import Application from './Application';
-import OnlineOrder from './OnlineOrder';
 
 function Menu() {
+
+    const [items, setItems] = useState([])
+
+    useEffect(() => {
+        fetch(`http://localhost:6001/menu-items`)
+        .then(resp => resp.json())
+        .then(data => setItems(data))
+    }, []);
 
 
     return (
         <main>
-            <MenuList />
-            <Application />
-            <OnlineOrder />
+            <MenuList items={items}/>
         </main>
-    )
+    );
 }
 
 export default Menu;
