@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from './Menu';
 import Header from './Header';
 import Navbar from './Navbar';
-import { Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import OnlineOrder from './OnlineOrder';
 import Application from './Application';
 
