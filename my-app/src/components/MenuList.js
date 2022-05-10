@@ -1,12 +1,12 @@
 import React from 'react'
 import MenuCard from './MenuCard'
 
-function MenuList() {
+function MenuList({ items }) {
   return (
-    <div>
-        <MenuCard />
-    </div>
-  )
+    <ul className="items">
+        {items.map(item => <MenuCard item={item} key={item.id}/>)}
+    </ul>
+  );
 }
 
 export default MenuList;
