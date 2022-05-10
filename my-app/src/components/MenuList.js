@@ -1,9 +1,12 @@
 import React from 'react'
+import MenuCard from './MenuCard'
 
 function MenuList() {
   return (
-    <div>MenuList</div>
+    <div>
+        <MenuCard />
+    </div>
   )
 }
 
-export default MenuList
+export default MenuList;

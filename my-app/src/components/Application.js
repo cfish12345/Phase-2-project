@@ -3,8 +3,10 @@ import React from 'react'
 
 function Application() {
   return (
-    <div>Application</div>
+    <div>
+      <h2>Application</h2>
+    </div>
   )
 }
 
-export default Application
+export default Application;
