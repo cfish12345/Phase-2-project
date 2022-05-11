@@ -40,6 +40,13 @@ header h1 {
   padding: 0.5rem 0;
 }
 
+.subtitle {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
 .logo {
   font-size: 1.25em;
   padding-left: 0.5rem;
@@ -95,41 +102,41 @@ input:focus {
   border-bottom: 2px solid var(--green);
 }
 
-.cards {
+.items {
   list-style: none;
 }
 
-.card {
+.item {
   margin: 1rem;
 }
 
-.card img {
+.item img {
   width: 100%;
 }
 
-.card button {
+.item button {
   margin-top: 0.5rem;
 }
 
 @media (min-width: 768px) {
-  .cards {
+  .items {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .card {
+  .item {
     width: calc(33% - 2rem);
   }
 }
 
 @media (min-width: 1024px) {
-  .card {
+  .item {
     width: calc(25% - 2rem);
   }
 }
 
 @media (min-width: 1200px) {
-  .card {
+  .item {
     width: calc(20% - 2rem);
   }
 }
