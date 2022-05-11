@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import MenuList from './MenuList';
 
-function Menu() {
+function Menu({ cart }) {
 
     const [items, setItems] = useState([])
+
 
     useEffect(() => {
         fetch(`http://localhost:6001/menu-items`)
@@ -14,7 +15,7 @@ function Menu() {
 
     return (
         <main>
-            <MenuList items={items}/>
+            <MenuList cart={cart} items={items}/>
         </main>
     );
 }

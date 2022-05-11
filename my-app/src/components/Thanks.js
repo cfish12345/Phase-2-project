@@ -1,8 +1,11 @@
 import React from 'react'
+import ThanksCard from './ThanksCard'
 
-const Thanks = () => {
+const Thanks = ({ cart }) => {
   return (
-    <div>Thanks</div>
+    <div>
+      {cart.map(receipt => <ThanksCard receipt={receipt}/>)}
+    </div>
   )
 }
 
