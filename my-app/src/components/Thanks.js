@@ -16,8 +16,10 @@ const Thanks = ({ cart }) => {
       </div>
       <div className='thanks'>
        <h4 >Total: ${totalPrice}</h4>
-       <p >Thanks for your order! Spongebob, get to work!</p>
+       <p >Thanks for your order!</p>
       </div>
+      <img className="krabs" src='https://c.tenor.com/cmsHl0C-Bi8AAAAC/mr-krabs-triggered.gif'/>
+      <p className="krabstext">Spongebob, GET BACK TO WORK!</p>
     </div>
   )
 }
