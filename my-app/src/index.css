@@ -6,7 +6,7 @@
 
 .logo {
   height: 70px;
-  width: 100px;
+  width: 80px;
   background: #000;
   position: relative;
   right: 250px;
@@ -92,6 +92,9 @@ button.primary {
 .appButton {
   background: rgb(241, 106, 241);
   color: white;
+  margin: 2rem;
+  position: relative;
+  right: 30px;
 }
 
 header h1 {

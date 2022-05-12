@@ -1,15 +1,6 @@
 import React, { useState } from 'react'
 
 const ThanksCard = ({ receipt }) => {
-
-//   const handleClick = () => {
-//     receipt.filter(item => item.id !== receipt.id)
-
-
-//   const handleClick = () => {
-    
-//   }
-// }
     
   return (
     <div className="thanksCard">
