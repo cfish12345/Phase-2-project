@@ -4,6 +4,10 @@ const ThanksCard = ({ receipt }) => {
 
   const handleClick = () => {
     receipt.filter(item => item.id !== receipt.id)
+
+
+  const handleClick = () => {
+    
   }
     
   return (
@@ -12,6 +16,7 @@ const ThanksCard = ({ receipt }) => {
       <p className="receiptprice">Price: ${receipt.price} <button onClick={handleClick}>Remove</button></p>
     </div>
   )
+}
 }
 
 export default ThanksCard
