@@ -3,13 +3,6 @@ import ThanksCard from './ThanksCard'
 
 const Thanks = ({ cart }) => {
 
-  // const [remove, setRemove] = useState(cart)
-
-  
-  // const newCart = remove.filter((item) => item.id !== id)
-  // setRemove(newCart)
-  
-
   const totalPrice = cart.reduce((total, item) => {
     return total + item.price;
   }, 0);
