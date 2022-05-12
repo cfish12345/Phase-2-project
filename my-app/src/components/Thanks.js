@@ -11,9 +11,13 @@ const Thanks = ({ cart }) => {
 
   return (
     <div>
-      {cart.map(receipt => <ThanksCard receipt={receipt}/>)}
-      <h4 className="total">Total: ${totalPrice}</h4>
-      <p className="thanks">Thanks for your order! Spongebob, get to work!</p>
+      <div className='cardList'>
+        {cart.map(receipt => <ThanksCard receipt={receipt}/>)}
+      </div>
+      <div className='thanks'>
+       <h4 >Total: ${totalPrice}</h4>
+       <p >Thanks for your order! Spongebob, get to work!</p>
+      </div>
     </div>
   )
 }

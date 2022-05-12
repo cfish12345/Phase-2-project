@@ -2,21 +2,22 @@ import React, { useState } from 'react'
 
 const ThanksCard = ({ receipt }) => {
 
-  const handleClick = () => {
-    receipt.filter(item => item.id !== receipt.id)
+//   const handleClick = () => {
+//     receipt.filter(item => item.id !== receipt.id)
 
 
-  const handleClick = () => {
+//   const handleClick = () => {
     
-  }
+//   }
+// }
     
   return (
-    <div className="item">
+    <div className="thanksCard">
       <p className="receiptname">{receipt.name}</p>
-      <p className="receiptprice">Price: ${receipt.price} <button onClick={handleClick}>Remove</button></p>
+      <p className="receiptprice">Price: ${receipt.price} <button className='primary'>Remove</button></p>
     </div>
   )
 }
-}
+
 
 export default ThanksCard

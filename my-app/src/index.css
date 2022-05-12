@@ -4,14 +4,25 @@
   --green: rgb(39, 189, 39);
 }
 
-.thanks, .total {
+.thanks {
   position: relative;
-  top: 20px;
-  left: 600px;
-  color:black;
+  background: rgb(241, 106, 241);
+  color:white;
   font: bold;
-
+  padding: 10px;
+  margin-top: 20px;
 }
+
+.thanksCard {
+  margin: 2rem;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+/* .cardList {
+  background: url('https://thumbs.gfycat.com/AdolescentScholarlyCormorant-mobile.jpg');
+} */
 
 * {
   margin: 0;
@@ -21,11 +32,31 @@
 
 body {
   font-family: "Slackey";
-  background: url('https://i.pinimg.com/736x/d7/0f/ff/d70fffe158b2bd559c11ea1f0a769bef.jpg')
+  background: url('https://i.pinimg.com/736x/d7/0f/ff/d70fffe158b2bd559c11ea1f0a769bef.jpg');
+  margin-bottom: 5rem;
+  
 }
 
 h2 {
   margin-bottom: 1rem;
+}
+
+.orderbutton {
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  left: 500px;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+  background: rgb(241, 106, 241);
+  color: white;
+}
+
+.homeImg {
+  justify-content: center;
+  position: relative;
+  left: 200px;
 }
 
 button {
@@ -36,13 +67,18 @@ button {
 }
 
 button.primary {
-  background-color: var(--green);
+  background-color: rgb(241, 106, 241);
   color: white;
 }
 
 .app {
   margin: 0 auto;
   max-width: 1200px;
+}
+
+.appButton {
+  background: rgb(241, 106, 241);
+  color: white;
 }
 
 header h1 {
@@ -120,10 +156,18 @@ input:focus {
 
 .item {
   margin: 1rem;
+  background: #fff;
+  text-align: center;
+  position: relative;
+  top: 2rem;
+  padding: 10px;
 }
 
 .item img {
-  width: 100%;
+  width: 80%;
+  position: relative;
+  top: 1rem;
+  margin-bottom: 10px;
 }
 
 .item button {
