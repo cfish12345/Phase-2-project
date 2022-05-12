@@ -26,7 +26,7 @@ function MenuCard({ item, cart }) {
           Quantity: {quantity}
         </p>
       }
-      <button className="primary" onClick={e =>handleClick(e)}>Add to Order</button>
+      <button className="addToOrder" onClick={e =>handleClick(e)}>Add to Order</button>
     </li>
   );
 }

@@ -31,6 +31,8 @@
   text-align: center;
   justify-content: center;
   padding: 5px;
+  border: none;
+  border-radius: 4px;
 }
 
 /* .cardList {
@@ -64,6 +66,7 @@ h2 {
   margin-top: 3rem;
   background: rgb(241, 106, 241);
   color: white;
+  
 }
 
 .homeImg {
@@ -82,6 +85,13 @@ button {
 button.primary {
   background-color: rgb(241, 106, 241);
   color: white;
+}
+
+.addToOrder {
+  background-color: rgb(241, 106, 241);
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 
 .app {
@@ -177,6 +187,8 @@ input:focus {
   position: relative;
   top: 2rem;
   padding: 10px;
+  border-radius: 5px;
+  padding-bottom: 50px;
 }
 
 .item img {
@@ -187,7 +199,12 @@ input:focus {
 }
 
 .item button {
-  margin-top: 0.5rem;
+  margin-top: 3rem;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  right: 10px;
+
 }
 
 @media (min-width: 768px) {

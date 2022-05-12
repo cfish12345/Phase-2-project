@@ -7,7 +7,7 @@ function Application() {
 
   const handleAppSubmit = (e) => {
     e.preventDefault()
-      setIsSubmit(isSubmit => !isSubmit)
+    setIsSubmit(isSubmit => !isSubmit)
   }
 
   return (
