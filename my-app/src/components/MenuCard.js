@@ -7,11 +7,6 @@ function MenuCard({ item, cart }) {
 
   const [isOrdered, setIsOrdered] = useState(true)
 
-  //const [thanks, isThanks] = useState([])
-
-  //want empty array to store items added
-  //not empty array for each item
-
 
  
   const handleClick = (e) => {
@@ -19,8 +14,6 @@ function MenuCard({ item, cart }) {
     setIsOrdered(isOrdered => !isOrdered)
     item.quantity = item.quantity + 1
     cart.push(item)
-    //isThanks(cart)
-    console.log(cart)
   }
 
   return (
@@ -30,7 +23,7 @@ function MenuCard({ item, cart }) {
       <p>Price: ${price}</p>
       {quantity > 0 &&
         <p>
-          quantity: {quantity}
+          Quantity: {quantity}
         </p>
       }
       <button className="primary" onClick={e =>handleClick(e)}>Add to Order</button>
