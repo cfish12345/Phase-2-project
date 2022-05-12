@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 
 const ThanksCard = ({ receipt }) => {
 
-  const handleClick = (e) => {
-    console.log(e)
+  const handleClick = () => {
+    receipt.filter(item => item.id !== receipt.id)
   }
     
   return (
