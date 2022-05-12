@@ -4,6 +4,19 @@
   --green: rgb(39, 189, 39);
 }
 
+.logo {
+  height: 70px;
+  width: 100px;
+  background: #000;
+  position: relative;
+  right: 250px;
+}
+
+.submitbutton {
+  position: relative;
+  left: 200px;
+}
+
 .thanks {
   position: relative;
   background: rgb(241, 106, 241);

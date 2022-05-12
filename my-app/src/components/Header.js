@@ -5,7 +5,7 @@ function Header() {
         <header>
             <h1>
                 Welcome to the Krusty Krab
-                <span className="logo" role="img">
+                <span className="logoCrab" role="img">
                     🦀
                 </span>
             </h1>
