@@ -2,6 +2,15 @@
   --green: rgb(39, 189, 39);
 }
 
+.thanks, .total {
+  position: relative;
+  top: 20px;
+  left: 600px;
+  color:black;
+  font: bold;
+
+}
+
 * {
   margin: 0;
   padding: 0;
