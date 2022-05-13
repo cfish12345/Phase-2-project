@@ -7,13 +7,14 @@ function MenuCard({ item, cart }) {
 
   const [isOrdered, setIsOrdered] = useState(true)
 
-
+ 
  
   const handleClick = (e) => {
     e.preventDefault()
     setIsOrdered(isOrdered => !isOrdered)
     item.quantity = item.quantity + 1
     cart.push(item)
+    
   }
 
   return (

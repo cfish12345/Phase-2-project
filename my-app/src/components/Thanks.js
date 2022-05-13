@@ -15,8 +15,8 @@ const Thanks = ({ cart }) => {
         {cart.map(receipt => <ThanksCard receipt={receipt}/>)}
       </div>
       <div className='thanks'>
-       <h4 >Total: ${totalPrice}</h4>
-       <p >Thanks for your order!</p>
+       <h4 className="thankstotal">Total: ${totalPrice}</h4>
+       <p className="thanksorder">Thanks for your order!</p>
       </div>
       <img className="krabs" src='https://c.tenor.com/cmsHl0C-Bi8AAAAC/mr-krabs-triggered.gif'/>
       <p className="krabstext">Spongebob, GET BACK TO WORK!</p>
