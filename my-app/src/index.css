@@ -175,6 +175,16 @@ input:focus {
   margin-bottom: 10px;
 }
 
+.thanksorder {
+  font-size: 20px;
+  position: relative;
+  text-align: center
+}
+
+.thankstotal {
+  font-size: 25px;
+  text-align: center;
+}
 .item button {
   margin-top: 3rem;
   position: absolute;
@@ -189,14 +199,14 @@ input:focus {
   width: 500px;
   position: relative;
   margin-top: 2rem;
-  left: 300px
+  left: 350px
 }
 
 .krabstext {
   position: relative;
-  left: 380px;
   bottom: 480px;
   font-size: large;
+  text-align: center;
   color: white;
 }
 
